@@ -1,0 +1,30 @@
+section {
+  border: 4px solid purple;
+  height: 200px;
+}
+
+/* #two {
+  height: 70px;
+}
+#three {
+  height: 100px;
+} */
+div {
+  background-color: gray;
+  margin: 10px;
+  min-width: 100px;
+  height: 20px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: start;
+  
+  align-items: center;
+
+  flex-wrap: wrap-reverse;
+}

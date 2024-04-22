@@ -1,0 +1,42 @@
+/* 
+- css selector: Định nghĩa các phần tử nào sẽ ảnh hưởng bởi CSS rule này
+
+
+*/
+
+h1 {
+ 
+  color: red;
+  display: inline-block;
+}
+
+/* 
+
+border: $độDày-width $styleBorder $màuBorder;
+
+
+
+*/
+
+h1 {
+  border: 5px solid purple;
+
+  /* padding: 20px 30px 40px 50px; */
+  /* padding: 20px 30px 40px; */
+  padding: 20px 70px;
+}
+
+/* 
+spacing short-hand
+spacing = padding | margin 
+
+
+margin-top: 5px;
+
+margin: $top $right $bottom $left;
+
+margin: $top $left+right $bottom;
+
+
+
+*/
